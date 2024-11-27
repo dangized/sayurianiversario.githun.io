@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+audio {
+    margin-bottom: 20px;
+    width: 80%;
+    max-width: 500px;
+}
+
+#carta {
+    width: 60%;
+    height: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #ff1493;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#titulo {
+    font-size: 30px;
+    color: #ff1493;
+    margin-bottom: 20px;
+}
+
+#texto-carta {
+    font-size: 20px;
+    color: #333;
+    font-style: italic;
+}
